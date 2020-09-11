@@ -53,7 +53,7 @@ function App() {
                <div key={note.id || note.name}>
                <h2>{note.name}</h2>
             <p>{note.description}</p>
-            <button onClick+{() => deleteNote(note)}>Delete Note </button>
+            <button onClick={() => deleteNote(note)}>Delete Note </button>
             </div>
                          ))
   }
